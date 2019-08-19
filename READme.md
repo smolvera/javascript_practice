@@ -1,0 +1,1 @@
+# Javascript practice and notes from Scrimba Intro to Javascript with git practice 
