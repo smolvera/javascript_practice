@@ -1,10 +1,10 @@
 // --------- Scrimba Introduction to Javascript by Dylan Israel ---------- //
-// 1. Strings
+// 2. Strings
+
 /* 
 - "double" or 'single' quotes
 - string interpolation (backtics) is an ES6 change
 - over 20 methods for strings
-- 
 */ 
 
 let firstName = "Samantha";
