@@ -6,28 +6,34 @@
 - Used to check a finite number of cases
 */
 
-// Simple for loop
+// Simple while loop
 
-let total = 0;
+let count = 0;
 
-for(i = 0; i < 5; i++) {
-  console.log(i); // returns 0, 1, 2, 3, 4
+while (count < 20) {
+  count++;
 }
 
-// Adding the values to the total
+console.log(count); // returns 20 (runs 20 times)
 
-for(i = 0; i < 5; i++) {
-  total += i;
+// While loop running until true
+let baskets = 0;
+while (true) {
+  baskets++;
+  if (baskets >= 20) {
+    break;
+  }
 }
-console.log(`The values of total ${total}`); // returns 10
 
-// Iterating through an array when the number of values to iterate through is unknown
+console.log(baskets); // returns 20 (runs 20 times)
 
-let numArray = [10, 20, 30, 40, 50];
-
-for(i = 0; i < numArray.length; i++) {
-
-  console.log(numArray[i]); // returns 10, 20, 30, 40, 50
-  total += numArray[i];
+// Do while loop will run atleast once 
+let runs = 0;
+do {
+  runs++;
+  if(runs >= 20) {
+    break;
+  }
 }
-console.log(total) // returns 160 (total of numArray)
+while(false) 
+console.log(runs); // returns 1
